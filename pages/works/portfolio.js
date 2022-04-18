@@ -12,13 +12,13 @@ const Work = () => {
                    Maxime Kirch Portfolio <Badge>2022</Badge>
                 </Title>
                 <P>
-                    My personal portfolio 
+                    My portfolio : evolutive project. It will be evolve throughout my future skills and will be my personal sandbox to try new stacks. 
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link target="_blank" href='/'>
-                            Not uploaded<ExternalLinkIcon mx="2px" />
+                        <Link target="_blank" href='https://maxime-portfolio.vercel.app/'>
+                        https://maxime-portfolio.vercel.app/<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -31,8 +31,10 @@ const Work = () => {
                     </ListItem>
                 </List>
 
-                <WorkImage src="/works/portfolio/portfoliohome.png" alt="Portfolio" />
-                <WorkImage src="/works/portfolio/portfolioworks.png" alt="Portfolio" />
+                <Container>
+                    <WorkImage src="/works/portfolio/portfoliohome.png" alt="Portfolio" />
+                    <WorkImage src="/works/portfolio/portfolioworks.png" alt="Portfolio" />
+                </Container>
             </Container>
         </Layouts>
     )
