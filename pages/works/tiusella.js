@@ -12,7 +12,7 @@ const Work = () => {
                    A Tiusella <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A website about family's guest rooms. 
+                    A website about family's guest rooms which present house and rooms and allow to reserve one of it. 
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

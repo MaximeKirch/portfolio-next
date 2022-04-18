@@ -46,7 +46,7 @@ const Page = () => {
                     Work
                 </Heading> 
                 <Paragraph>
-                    I'm a junior but ambitious front-end developer.  I began web development in February, 2021. In the near future i would like to learn full-stack techs like Node.js to build an end-to-end project. I actually work on a small startup which want to connect sports players between them.
+                    I'm a junior but ambitious front-end developer.  I began web development in February, 2021. In the near future i would like to learn full-stack techs like Node.js to build an end-to-end project. I actually work in a small startup which want to connect sports players between them.
                     I like resolve problems, challenge myself, learn and create news things everyday. You can see here  <NextLink href='/'>
                             <Link>
                                 my portfolio
@@ -100,11 +100,13 @@ const Page = () => {
                     Resume
                 </Heading>
 
+            <Paragraph>
               Want to know more about me ?  Here is my 
                 <NextLink href={'/Maxime_Kirch_2022.pdf'}>
                     <Link> resume </Link>
                 </NextLink>
                 !
+                </Paragraph>
             </Section>
 
             <Section delay={0.3}>
@@ -115,7 +117,7 @@ const Page = () => {
                     <ListItem>
                         <Link href='https://github.com/MaximeKirch' target='_blank'>
                             <Button variant='ghost' colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/> }>
-                                @MaximeKirch
+                                MaximeKirch
                             </Button>
                         </Link>
                     </ListItem>
@@ -131,7 +133,7 @@ const Page = () => {
                     <ListItem>
                         <Link href='https://www.linkedin.com/in/maxime-kirch-467443135?originalSubdomain=fr' target='_blank'>
                             <Button variant='ghost' colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/> }>
-                                @Maxime Kirch
+                                Maxime Kirch
                             </Button>
                         </Link>
                     </ListItem>
