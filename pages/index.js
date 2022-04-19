@@ -79,7 +79,7 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear> 2021</BioYear>
-                    Complete bootcamp for his Front-End Engineer career
+                    Completed bootcamp for his Front-End Engineer career
                 </BioSection>
             <BioSection>
 
