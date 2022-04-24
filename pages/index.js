@@ -51,7 +51,7 @@ const Page = () => {
                             <Link>
                                 my portfolio
                             </Link>
-                        </NextLink> build with Next.js, ChakraUI and FrameMotion.
+                        </NextLink> build with Next.js, ChakraUI, Blender, ThreeJS and FrameMotion.
                 </Paragraph>       
                 <Box align="center" my={4}>
                     <NextLink href="/works">
