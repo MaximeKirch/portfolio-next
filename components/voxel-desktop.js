@@ -83,7 +83,7 @@ useEffect(() => {
                 const p = initialCameraPosition
                 const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-                camera.position.y = 10
+                camera.position.y = 5
                 camera.position.x = p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
                 camera.position.z = p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
                 camera.lookAt(target)
@@ -107,7 +107,7 @@ useEffect(() => {
             className='voxel-desktop'
             m="auto" 
             at={['-20px', '-60px', '-120px']}
-            mb={['-40px', '0px', '-200px']}
+            mb={['0px', '0px', '0px']}
             w={[280, 480, 640]}
             h={[280,480,640]}
             position="relative"
