@@ -33,6 +33,7 @@ const Work = () => {
 
             <Container>
                 <WorkImage src="/works/fakeflix/fakeflix.png" alt="Fakeflix" />
+                <WorkImage src="/works/fakeflix/fakeflixquickview.png" alt="Fakeflix quickview"/>
             </Container>
             </Container>
         </Layouts>
